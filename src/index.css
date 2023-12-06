@@ -1,0 +1,32 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: ivory;
+}
+
+canvas{
+  /* to fix issues when we are on mobile screen */
+  touch-action: none;
+}
+
+.macScreen iframe{
+  width: 1024px;
+  height: 670px;
+  border:none;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+.iphoneScreen iframe{
+  width: 400px;
+  height: 845px;
+  border:none;
+  border-radius: 50px;
+  background-color: #000000;
+}
